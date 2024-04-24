@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    background-color: rgb(106, 190, 190);
+}
+
+.todo-container{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content:end;
+  align-items: center;
+  width: 500px;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 30px;
+  /* position: absolute;
+  left: 50%;
+  transform: translate(-50%); */
+  border: 3px solid white;
+  border-radius: 5px;
+}
+
+.input-section{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+ 
+ 
+}
+
+input::placeholder{
+  color: silver;
+}
+
+.input-section input{
+  padding: 10px;
+  margin: 5px;
+  width: 100%;
+  outline: none;
+  
+  
+}
+
+.input-section button{
+  width: 100%;
+  color: white;
+  padding: 3px;
+  border-radius: 3px;
+  font-size: medium;
+  background-color: black;
+}
+
+.todo-container ul{
+  width: 90%;
+  padding: 0;
+}
+
+.todo-container li{
+  display: flex;
+  list-style: none;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0 2px 2px rgb(31, 79, 79);  
+}
+
+.todo-container li span {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  flex: 1;
+}
+
+
+.todo-container li .icon {
+  display: flex;
+  justify-content: flex-end; /* Align the icons to the right */
+}
+
+ul li i{
+  text-align: right;
+  cursor: pointer;
+  color:rgb(106, 190, 190); 
+  transition: .5s ease-in-out;
+  margin-right: 4px;
+ 
+}
+
+
+/* ul li i:hover{
+ color: red;
+ 
+} */
+
+ .fa-pen-to-square:hover{
+  color: blue;
+}
+
+.fa-trash-can:hover{
+  color: red;
+}
+

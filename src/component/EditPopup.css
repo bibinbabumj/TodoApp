@@ -1,0 +1,31 @@
+.edit-full-scree {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-popup {
+  height: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  padding: 20px;
+}
+
+.edit-popup textarea {
+  width: 90%;
+  padding: 20px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
